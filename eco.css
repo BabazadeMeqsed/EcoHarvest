@@ -1,0 +1,543 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.main{
+    width: 100%;
+    height: 1000px;
+}
+.home{
+    width: 100%;
+    height: 800px;
+    background-image: url(http://ecoharvest.farm/d1.jpg);
+    background-size: cover;
+}
+.icon{
+    width: 8%;
+    height: 20px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 60px;
+    background-color: white;
+    opacity: 0.7;
+    text-align: center;
+    
+}
+.icon i{
+    font-size: 15px;
+    margin-left: 7px;
+}
+.xet{
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #ffd799;
+    padding-top: 30px;
+    padding-bottom: 11px;
+}
+.eco-harvest{
+    width: 85%;
+    height: 100px;
+    background-color: white;
+    opacity: 0.7;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.eco-harvest a{
+text-decoration: none;
+margin-left: 20px;
+font-size: 17px;
+font-weight: 700;
+color: #112433;
+}
+.eco-harvest a:hover{
+    color: black;
+    transition: 1s;
+}
+.eco-harvest img{
+    width: 15%;
+    height: 100px;
+    margin-left: 20px;
+
+}
+.search{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color:gray;
+    display: inline-block;
+   
+margin-top: 45px;
+}
+.search-1{
+    width: 30px;
+    height: 30px;
+    background-color:#408858;
+    border-radius: 100%;
+    margin-top: 45px;
+    margin-right: 30px;
+}
+.bar{
+    width: 50%;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 320px;
+}
+.search i{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.search-1 i{
+    margin-left: 7px;
+    margin-top: 5px;
+    color: white;
+}
+.Eat{
+    width: 40%;
+    height: 200px;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+.Eat h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.Eat p{
+    font-size: 23px;
+    margin-top: 30px;
+}
+.botton-1{
+    display: inline-block;
+    width: 12%;
+    height: 50px;
+    background-color: #ae4c51;
+    margin-top: 180px;
+    margin-left: 200px;
+}
+
+.botton-2{
+    width: 12%;
+    height: 50px;
+    background-color: #408858;
+    display: inline-block;
+}
+.botton-1  a, .botton-2 a{
+    text-decoration: none;
+   margin-left: 15px;
+   margin-top: 15px;
+   display: block;
+   color: white;
+}
+.welcome{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(http://ecoharvest.farm/img/bg/about.png);
+    background-size: cover;
+}
+.meyveler{
+    width: 40%;
+    height: 600px;
+    background-image: url(http://ecoharvest.farm/Eco.png);
+    background-size: cover;
+}
+.metnler{
+    width: 45%;
+    height: 500px;
+    margin-top: 170px;
+    margin-right: 100px;
+}
+.metnler h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+.metnler p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    color: #7b8e9d;
+}
+.submit{
+    width: 25%;
+    height: 60px;
+    background-color: #408858;
+    margin-top: 30px;
+    margin-left: 220px;
+}
+.submit a{
+    text-decoration: none;
+    display: block;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 18px;
+color:white;
+}
+.product-1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.product{
+    width: 100%;
+    height: 700px;
+    background-image:url(img/bg/bg3.jpg);
+background-size: cover;
+}
+.product p{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+}
+.borani{
+    width: 20%;
+    height: 250px;
+    background-image: url(http://ecoharvest.farm/img/shape/shape1.png);
+    background-size: cover;
+}
+.Fruits{
+    width: 80%;
+    height: 100px;
+    margin-left: 270px;
+    position: absolute;
+}
+.fruits{
+    display: inline-block;
+    width: 10%;
+    height: 30px;
+    border-right: 1px solid #7b8e9d;
+margin-top: 100px;
+margin-left: 50px;
+}
+.fruits a{
+    text-decoration: none;
+    text-align: center;
+    color: #7b8e9d;
+    font-size: 20px;
+    font-weight: 600;
+}
+.fruits-end{
+    width: 15%;
+    height: 40px;
+   margin-left: 30px;
+display: inline-block;
+
+}
+.fruits-end a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #7b8e9d;
+}
+.dill{
+    width: 12%;
+    height: 350px;
+    background-image: url(http://ecoharvest.farm/img/shape/shape2.png);
+    background-size: cover;
+    
+}
+.sekiller{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+   position: absolute;
+ margin-left: 60px;  
+}
+.item{
+    width: 22%;
+    height: 330px;
+}
+.item a{
+    font-size: 20px;
+    margin-top: 10px!important;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+.item a:hover{
+    color: yellow;
+}
+.sekil{
+    width: 100%;
+    height: 270px;
+    background-size: cover;
+	background-position: center;
+    border: 1px solid gray;
+}
+.may{
+    background-image: url(http://ecoharvest.farm/img/NewCategory/rich%20may%20peach%20.png);
+}
+.summer{
+    background-image: url(http://ecoharvest.farm/img/NewCategory/summer%20sweet%20peach.png);
+}
+.white{
+    background-image: url(http://ecoharvest.farm/img/NewCategory/white-peach%20.png);
+}
+.peach{
+    background-image: url(http://ecoharvest.farm/img/NewCategory/peach%20flat.png);
+}
+.passiv .sekil{
+    background-color: #408858;
+    opacity: 0;
+}
+.passiv .sekil:hover {
+    opacity: 0.9;
+}
+
+.axtaris{
+    width: 30px;
+    height: 30px;
+    background-color:white;
+    margin-left: 100px;
+    margin-top: 100px;
+    color: black;
+    border-radius: 100%;
+}
+.axtaris:hover{
+    background-color: red;
+    color: white;
+}
+.axtaris i{
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+
+            .why{
+                width: 100%;
+                height: 500px;
+                display: flex;
+                justify-content: space-between;
+            }
+           
+            .sebet{
+                width: 45%;
+                height: 450px;
+                background-image: url(http://ecoharvest.farm/img/choose/01.jpg);
+                background-size: cover;
+               margin-top: 100px;
+                margin-left: 100px;
+            }
+            .Chose{
+                width: 35%;
+                height: 700px;
+                background-image: url(http://ecoharvest.farm/img/shape/why-shape.png);
+                background-repeat: no-repeat;
+                background-position: right;
+                margin-right: 100px;
+                margin-top: 90px;
+            }
+            .Chose h1{
+                text-align: center;
+                font-size: 50px;
+                margin-top: 10px;
+            }
+           .textt{
+                text-align: center;
+                font-size: 18px;
+                margin-top: 50px;
+                line-height: 30px;
+                color: #7b8e9d;
+            }
+
+            .sekil-icon{
+                width: 90%;
+                height: 1000px;
+                margin-top: 30px;
+                
+            }
+            ul{
+                width: 90%;
+                height: 700px;
+            }
+            ul li{
+                display: flex;
+                justify-content: space-between; 
+                padding-top: 30px; 
+                text-align: center;
+                align-items: center;
+            }
+            ul li img{
+                width:50px;
+                height:50px;
+                margin-right: 30px;
+            }
+          ul li p{
+            padding-top: 20px;
+           color: #7b8e9d;
+           font-size: 15px;
+          }
+          .sort{
+            width: 100%;
+            height: 400px;
+            background-image: url(http://ecoharvest.farm/img/bg/bg3.jpg);
+            background-size: cover;
+           margin-top: 300px;
+          }
+          .p1{
+            text-align: center;
+            font-size: 50px;
+            color: white;
+         padding-top: 70px;
+          }
+          .reqem{
+            width: 80%;
+            height: 200px;
+           display: flex;
+            justify-content: space-between;
+margin-left: 150px;
+margin-top: 70px;
+          }
+          .fruits6{
+            width: 20%;
+            height: 150px;
+          }
+
+          .vegetables{
+            width: 20%;
+            height: 150px;
+          }
+          .not-fresh{
+            width: 20%;
+            height: 150px;
+          }
+          .h1{
+            font-size: 90px;
+            font-weight: 300;
+            color: white;
+          }
+          .reqem p{
+            font-size: 22px;
+            font-weight: 300;
+            color: white;
+            margin-left: 10px;
+          }
+          .gobelek{
+            width: 90%;
+            height: 250px;
+           background-image: url(http://ecoharvest.farm/img/bg/bg5.jpg);
+           background-size: cover;
+           display: flex;
+           justify-content: space-around;
+           margin-top: 70px;
+           position: absolute;
+           margin-left: 50px;
+          
+          }
+          .gobelek-sekilleri{
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+         
+          }
+          .g3, .g4, g5 img{
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+          }
+          .g1{
+            margin-left: 100px;
+            margin-top: 50px;
+
+          }
+          .g2{
+            margin-left: 100px;
+            margin-top: 50px;
+          }
+          .g3{
+           margin-right: 50px;
+           
+          }
+          .g4{
+           margin-right: 50px;
+            
+          }
+          .g5{
+            margin-right: 150px;
+          }
+          .footer{
+            width: 100%;
+            /* height: 200px; */
+            background-image: url(http://ecoharvest.farm/img/bg/bg6.jpg);
+            background-size: cover;
+            padding: 35px 0px;
+            margin-top: 250px;
+          }
+          .footer-1{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid black;
+           
+          }
+
+          .natural{
+            width: 20%;
+            padding: 40px 0px;
+            background-image: url();
+            background-size: cover;
+          }
+          
+          
+          .aycon{
+            width: 70%;
+            /* height: 50px; */
+           display: flex;
+           justify-content: space-between;
+          }
+          .yarpaq{
+            width: 240px;
+           
+          }
+          .aycon-1{
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            background-color: #2b7443;
+          }
+          .aycon-1:hover{
+            background-color: yellow;
+          }
+          .aycon-1 i{
+            color: white;
+            padding: 15px;
+            }
+          
+          .ttt{
+            width: 50px;
+            height: 5px;
+            margin-left: 90px;
+          }
+          .natural p{
+            font-size: 30px;
+            margin-top: 20px;
+           text-align: center;
+          }
+          .natural h5{
+            font-size: 20px;
+            color: white;
+            line-height: 30px;
+text-align: center;
+          }
+          .son{
+            text-align: center;
+            font-size: 20px;
+            margin-top: 20px;
+           
+          }
+          
+          
+          
+         
